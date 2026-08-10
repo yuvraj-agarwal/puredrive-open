@@ -1,50 +1,73 @@
-# PureDrive Open
+# PureDrive Open — The Linux of Fast Food
 
-**Open-source business model and operational playbook for 100% certified organic fast food.**
+**Open-source business model, recipes frameworks, kitchen blueprints, and operational system for 100% certified organic fast food.**
 
-Solving the **Organic Trilemma**: high raw ingredient costs + short shelf lives + consumer expectation of fast, affordable meals.
-
-This repository contains a complete architecture for launching a high-integrity organic QSR / drive-thru / cloud kitchen brand. Released under Creative Commons Attribution 4.0 so anyone can use, adapt, and improve it.
+Flipping the traditional closed franchise into an open-source framework. Local operators get the full playbook for free. The core foundation monetizes through brand verification, group purchasing, and managed services — the Red Hat model applied to physical food service.
 
 ## Why This Exists
 
-Most organic restaurants fail because they try to run traditional restaurant economics with premium ingredients. PureDrive attacks the problem with:
+Traditional organic restaurants fail under high costs, waste, and slow service. PureDrive solves the **Organic Trilemma** (cost + shelf life + speed) with:
 
-- Centralized prep (Hub)
-- Extremely constrained menus
-- Micro-footprint assembly stores (Spokes)
-- Rigorous organic certification discipline
-- Multiple high-margin revenue streams (subscriptions, catering, CPG)
+- Centralized hub prep
+- Extremely constrained, high-turn menus
+- Micro-footprint assembly kitchens
+- Full organic integrity + traceability
+- Community-driven improvement via pull requests
 
-## Quick Start
+Anyone can launch a location using these materials under their own brand at $0 franchise fee and 0% royalty.
 
-1. Read [BUSINESS_MODEL.md](BUSINESS_MODEL.md)
-2. Study [OPERATIONS.md](OPERATIONS.md) for the hub-and-spoke system
-3. Model your own numbers with [UNIT_ECONOMICS.md](UNIT_ECONOMICS.md)
-4. Understand certification requirements in [CERTIFICATION.md](CERTIFICATION.md)
-5. Follow the phased [ROADMAP.md](ROADMAP.md)
+## Repository Structure
 
-## Core Principles
+```
+puredrive-open/
+├── 01_recipes/            # Component systems, prep standards, nutritional matrices
+├── 02_supply_chain/       # Farm contracts, audit checklists, GPO principles
+├── 03_architecture/       # Micro-kitchen designs, equipment lists, floor plans
+├── 04_operations_sop/     # Ticket flow, HACCP, training, integrity protocols
+├── 05_tech_stack/         # POS/KDS recommendations, lot tracking, open options
+├── 06_financials/         # Unit economics templates and modeling guidance
+├── BUSINESS_MODEL.md
+├── OPERATIONS.md
+├── UNIT_ECONOMICS.md
+├── CERTIFICATION.md
+├── ROADMAP.md
+├── MONETIZATION.md        # How the core makes money (Red Hat style)
+└── LICENSE                # CC BY 4.0
+```
 
-- **Integrity first**: 100% certified organic ingredients only. No greenwashing.
-- **Speed is a feature**: Sub-3 to sub-5 minute ticket times are non-negotiable.
-- **Constraint creates freedom**: Limited SKUs = lower waste, higher speed, better margins.
-- **Centralize the hard parts**: Processing, washing, cooking, and quality control live in the hub.
-- **Localize the last mile**: Spokes are pure assembly and hand-off.
+## How Operators Use This
 
-## Geographic Notes
+1. Fork or download the playbook.
+2. Adapt recipes and sourcing to local certified organic supply.
+3. Build a micro-kitchen following the architecture principles.
+4. Follow the SOPs for speed + integrity.
+5. Optionally join the brand / GPO / SaaS layer for network benefits.
 
-- Primary design: United States (USDA Organic)
-- Adaptation notes included for India (NPOP / FSSAI) and other markets
+## How the Core Foundation Wins
+
+See [MONETIZATION.md](MONETIZATION.md):
+- Low monthly brand verification fee for use of the PureDrive name and ecosystem
+- Group purchasing / co-op fee on aggregated organic supply
+- Managed SaaS (PureOS Cloud) and hardware bundles
+
+No traditional royalties. Operators keep the vast majority of profits. Growth is decentralized and viral.
 
 ## Contributing
 
-Improvements, localizations, real unit economics from operators, better menu engineering, and supply-chain playbooks are welcome. Open an issue or PR.
+This only becomes powerful if operators improve it.
+
+- Better prep methods → pull request
+- Local farm contract templates → pull request
+- Real unit economics (anonymized) → pull request
+- Layout or equipment improvements → pull request
+
+Open an issue or PR. High-signal contributions that improve speed, cost, or integrity will be prioritized.
 
 ## License
 
-[CC BY 4.0](LICENSE) — free to use commercially with attribution.
+Documentation and operational content: [CC BY 4.0](LICENSE)  
+(Tech components can adopt Apache 2.0 or similar as they are added.)
 
 ---
 
-Built to make true organic fast food scalable.
+**Build the open operating system for organic fast food.**
